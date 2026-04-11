@@ -373,9 +373,7 @@ section {
   padding-top: 0.8rem;
   padding-bottom: 1rem;
 }
-html {
-  scroll-behavior: smooth;
-}
+
 html, body {
   overflow-x: hidden;
   width: 100%;
@@ -392,7 +390,30 @@ img {
 
 section {
   max-width: 100%;
-  overflow: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0;
+}
+
+.navbar ul li a {
+  font-size: 1rem;
+  padding: 0;
 }
 
 @media (max-width: 768px) {
@@ -475,4 +496,77 @@ section {
     font-size: 1rem !important;
     border-radius: 10px !important;
   }
+}
+.project-link {
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.project-link:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 209, 255, 0.15);
+}
+
+.project-link .card {
+  transition: border 0.3s ease;
+}
+
+.project-link:hover .card {
+  border: 1px solid rgba(0, 209, 255, 0.35) !important;
+}
+.project-hint {
+  display: block;
+  margin-top: 6px;
+  color: #00D1FF;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.project-link {
+  display: block;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-link:hover {
+  transform: translateY(-6px);
+}
+
+.project-hint {
+  display: block;
+  margin-top: 6px;
+  color: #00D1FF;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  #portfolio .col-md-4 {
+    display: flex;
+    justify-content: center;
+  }
+
+  #portfolio .card {
+    width: 100%;
+    max-width: 340px;
+  }
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+section {
+  max-width: 100%;
+}
+
+.project-link,
+.btn,
+.navbar a {
+  touch-action: manipulation;
 }
