@@ -9,7 +9,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
-    <title>Responsive Personal Portfolio Website Design | CSSnippets</title>
+    <title>Ochuba Victor | Cloud & DevOps Engineer</title>
 
     <!-- custom css -->
     <link rel="stylesheet" href="style.css">
@@ -21,22 +21,19 @@
 
     <!-- header Design -->
     <header>
-        <nav class="navbar">
-            <a href="index.html" class="logo" style="--i: 1;">Port<span>folio</span>
-            </a>
+      <nav class="navbar">
+    <a href="index.html" class="logo" style="--i: 1;">Ochuba <span>Victor</span></a>
 
-            <ul>
-                <li style="--i: 2;"><a href="#" class="active">Home</a></li>
-                <li style="--i: 3;"><a href="#">About</a></li>
-                <li style="--i: 4;"><a href="#">Skills</a></li>
-                <li style="--i: 5;"><a href="#">Services</a></li>
-                <li style="--i: 6;"><a href="#">Portfolio</a></li>
-                <li style="--i: 7;"><a href="#">Contact</a></li>
-            </ul>
+    <ul>
+        <li style="--i: 2;"><a href="#home" class="active">Home</a></li>
+        <li style="--i: 3;"><a href="#about">About</a></li>
+        <li style="--i: 5;"><a href="#services">Services</a></li>
+        <li style="--i: 6;"><a href="#portfolio">Portfolio</a></li>
+        <li style="--i: 7;"><a href="#contact">Contact</a></li>
+    </ul>
 
-
-            <a href="assets/Ochuba Victor CV.pdf" class="cvbtn" style="--i: 8;">Download CV<i class="fa-solid fa-download"></i></a>
-        </nav>
+    <a href="assets/Ochuba Victor CV.pdf" class="cvbtn" style="--i: 8;" download>Download CV</a>
+</nav>
     </header>
 
 
@@ -47,8 +44,8 @@
         </div>
         <div class="hero-content hero-content-animation">
             <h3 style="--i: 1;">Hello, I'm </h3>
-            <h1 style="--i: 2;">Victor</h1>
-            <h2 style="--i: 3;">And I'm a <span class="typing-text"></span></h2>
+            <h1 style="--i: 2;">Ochuba Victor</h1>
+            <h2 style="--i: 3;">And I'm a <span class="typing-text">Cloud Engineer</span></h2>
             <p style="--i: 4;">
                Engineer focused on cloud infrastructure, automation, and reliable deployment systems.
             </p>
@@ -67,35 +64,36 @@
 
 
     <!-- stats -->
-    <section class="stats stats-animation">
-        <div class="stat">
-            <h2>2+</h2>
-            <span>Years of<br>experience</span>
-        </div>
-        <div class="stat">
-            <h2>10+</h2>
-            <span>Projects <br>completed</span>
-        </div>
-        <div class="stat">
-            <h2>5+</h2>
-            <span>Technologies <br>mastered</span>
-        </div>
-        <div class="stat">
-            <h2>8</h2>
-            <span>Statisfied <br>client</span>
-        </div>
-    </section>
+  <section class="stats stats-animation">
+    <div class="stat">
+        <h2>2+</h2>
+        <span>Years of<br>Experience</span>
+    </div>
+
+    <div class="stat">
+        <h2>10+</h2>
+        <span>Projects<br>Completed</span>
+    </div>
+
+    <div class="stat">
+        <h2>5+</h2>
+        <span>Core Tools<br>Used</span>
+    </div>
+
+    <div class="stat">
+        <h2>8</h2>
+        <span>Satisfied<br>Clients</span>
+    </div>
+</section>
 
 
    
     
     <!-- hero section -->
-    <section id="home" class="hero-container" style="background-color: #006da011;">
-       
-        <div class="hero-content hero-content-animation">
-           
-            <h1 style="--i: 2;">About Me</h1>
-            <h2 style="--i: 3;">Cloud/DevOps Engineer <span class="typing-text"></span></h2>
+    <section id="about" class="hero-container" style="background-color: #006da011;">
+    <div class="hero-content hero-content-animation">
+        <h1 style="--i: 2;">About</h1>
+        <h2 style="--i: 3;">Cloud & DevOps Engineer</h2>
             <p style="--i: 4;">
                 I’m interested in the systems behind the product... the infrastructure, automation, and reliability that make everything work the way it should.
 
@@ -110,7 +108,7 @@ Right now, I’m expanding further into containerization, infrastructure as code
                 <a href="https://www.linkedin.com/in/ochuba-victor-chinaecherem-a76aa430b/"><i class="fa-brands fa-linkedin"></i></a>
             </div>
             <div class="hero-btn" style="--i: 6;">
-                <a href="assets/Ochuba Victor CV.pdf" class="btn">Resume</a>
+                <a href="assets/Ochuba Victor CV.pdf" class="btn">Download CV</a>
                 
             </div>
         </div>
@@ -123,7 +121,7 @@ Right now, I’m expanding further into containerization, infrastructure as code
 
     
   <!-- My Services Section -->
-<section class="my-services py-5">
+<section id="services" class="my-services py-5">
     <div class="container">
       <h2 class="text-center mb-5">My <span class="highlight">Services</span></h2>
       <div class="row">
@@ -137,7 +135,7 @@ Right now, I’m expanding further into containerization, infrastructure as code
             <p class="service-description">
              I build automated deployment pipelines using GitHub Actions to ensure fast, reliable, and repeatable application delivery.
             </p>
-            <a href="#" class="btn btn-primary btn-shadow">Read More</a>
+            <a href="#contact" class="btn btn-primary btn-shadow">Let’s Talk</a>
           </div>
         </div>
   
@@ -150,7 +148,7 @@ Right now, I’m expanding further into containerization, infrastructure as code
             <h3 class="service-title">Cloud Infrastructure Setup</h3>
             <p class="service-description">
 I deploy and configure cloud environments on Azure, including Linux virtual machines, networking, and web server setup.            </p>
-            <a href="#" class="btn btn-primary btn-shadow">Read More</a>
+            <a href="#contact" class="btn btn-primary btn-shadow">Let’s Talk</a>
           </div>
         </div>
   
@@ -164,7 +162,7 @@ I deploy and configure cloud environments on Azure, including Linux virtual mach
             <p class="service-description">
               I automate application deployment processes, reducing manual work and improving consistency using scripts and CI/CD workflows.
             </p>
-            <a href="#" class="btn btn-primary btn-shadow">Read More</a>
+            <a href="#contact" class="btn btn-primary btn-shadow">Let’s Talk</a>
           </div>
         </div>
       </div>
@@ -172,56 +170,77 @@ I deploy and configure cloud environments on Azure, including Linux virtual mach
   </section>
 
 
-  <section class="container py-5">
+  <section id="portfolio" class="container py-5">
     <h2 class="text-center mb-5" style="color: #fff; font-size: 2.5rem;">
         Featured <span style="color: #00D1FF;">Projects</span>
     </h2>
     <div class="row g-4">
-        <div class="col-md-4">
-            <div class="card bg-dark border-0">
-                <img src="images/project 1.jpg" class="card-img-top rounded-3" alt="Project 1">
-            </div>
+       <div class="col-md-4">
+    <div class="card bg-dark border-0 text-white h-100">
+        <img src="images/project 1.jpg" class="card-img-top rounded-3" alt="Azure VM with NGINX">
+        <div class="card-body text-center">
+            <h5 class="card-title">Azure VM with NGINX</h5>
         </div>
-        <div class="col-md-4">
-            <div class="card bg-dark border-0">
-                <img src="images/project 2.jpg" class="card-img-top rounded-3" alt="Project 2">
-            </div>
+    </div>
+</div>
+       <div class="col-md-4">
+    <div class="card bg-dark border-0 text-white h-100">
+        <img src="images/project 2.jpg" class="card-img-top rounded-3" alt="Secure Cloud Infrastructure">
+        <div class="card-body text-center">
+            <h5 class="card-title">Secure Cloud Infrastructure</h5>
         </div>
-        <div class="col-md-4">
-            <div class="card bg-dark border-0">
-                <img src="images/project 3.jpg" class="card-img-top rounded-3" alt="Project 3">
-            </div>
+    </div>
+</div>
+       <div class="col-md-4">
+    <div class="card bg-dark border-0 text-white h-100">
+        <img src="images/project 3.jpg" class="card-img-top rounded-3" alt="Monitoring & Alerting System">
+        <div class="card-body text-center">
+            <h5 class="card-title">Monitoring & Alerting System</h5>
         </div>
-        <div class="col-md-4">
-            <div class="card bg-dark border-0">
-                <img src="images/project 4.jpg" class="card-img-top rounded-3" alt="Project 4">
-            </div>
+    </div>
+</div>
+       <div class="col-md-4">
+    <div class="card bg-dark border-0 text-white h-100">
+        <img src="images/project 4.jpg" class="card-img-top rounded-3" alt="Automated Delivery to Azure VM">
+        <div class="card-body text-center">
+            <h5 class="card-title">Automated Delivery to Azure VM</h5>
         </div>
-        <div class="col-md-4">
-            <div class="card bg-dark border-0">
-                <img src="images/project 5.jpg" class="card-img-top rounded-3" alt="Project 5">
-            </div>
+    </div>
+</div>
+       <div class="col-md-4">
+    <div class="card bg-dark border-0 text-white h-100">
+        <img src="images/project 5.jpg" class="card-img-top rounded-3" alt="Containerized Deployment with Docker">
+        <div class="card-body text-center">
+            <h5 class="card-title">Containerized Deployment with Docker</h5>
+            <small style="color: #00D1FF;">Coming Soon</small>
         </div>
-        <div class="col-md-4">
-            <div class="card bg-dark border-0">
-                <img src="images/project 6.jpg" class="card-img-top rounded-3" alt="Project 6">
-            </div>
+    </div>
+</div>
+       <div class="col-md-4">
+    <div class="card bg-dark border-0 text-white h-100">
+        <img src="images/project 6.jpg" class="card-img-top rounded-3" alt="Kubernetes-Based Application Delivery">
+        <div class="card-body text-center">
+            <h5 class="card-title">Kubernetes-Based Application Delivery</h5>
+            <small style="color: #00D1FF;">Coming Soon</small>
         </div>
+    </div>
+</div>
        
     </div>
 </section>
 
-<section class="container py-5">
-    <h2 class="text-center mb-5" style="color: #fff; font-size: 2.5rem;">
-        Contact <span style="color: #00D1FF;">Me!</span>
-    </h2>
-    <div class="contact-info text-center text-white mb-4">
-  <p>Open to cloud, DevOps, and infrastructure opportunities. Whether it’s a role, collaboration, or project discussion, feel free to reach out.</p>
-  <p><strong>Email:</strong> ochubachineacherem@gmail.com</p>
-  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ochuba-victor-chinaecherem-a76aa430b/" target="_blank" style="color: #00D1FF;">Ochuba Victor</a></p>
-  <p><strong>GitHub:</strong> <a href="https://github.com/ochubavictor" target="_blank" style="color: #00D1FF;">ochubavictor</a></p>
-</div>
- 
+<section id="contact" class="container py-5">
+  <h2 class="text-center mb-5" style="color: #fff; font-size: 2.5rem;">
+    Contact <span style="color: #00D1FF;">Me!</span>
+  </h2>
+
+  <div class="contact-info text-center text-white mb-4">
+    <p>Open to cloud, DevOps, and infrastructure opportunities. Whether it’s a role, collaboration, or project discussion, feel free to reach out.</p>
+    <p><strong>Email:</strong> ochubachineacherem@gmail.com</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ochuba-victor-chinaecherem-a76aa430b/" target="_blank" style="color: #00D1FF;">Ochuba Victor</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/ochubavictor" target="_blank" style="color: #00D1FF;">ochubavictor</a></p>
+  </div>
+</section>
     
     
 
