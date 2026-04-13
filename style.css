@@ -570,3 +570,17 @@ section {
 .navbar a {
   touch-action: manipulation;
 }
+.project-stack {
+  display: block;
+  margin-top: 6px;
+  color: #cfcfcf;
+  font-size: 0.8rem;
+}
+
+.project-hint {
+  display: block;
+  margin-top: 6px;
+  color: #00D1FF;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
