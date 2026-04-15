@@ -584,3 +584,24 @@ section {
   font-size: 0.85rem;
   font-weight: 500;
 }
+.stack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.stack-card {
+  background: #1e293b;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-weight: 600;
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.stack-card:hover {
+  transform: translateY(-4px);
+  border: 1px solid rgba(0, 209, 255, 0.35);
+}
