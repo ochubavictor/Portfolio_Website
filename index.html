@@ -28,9 +28,10 @@
         <li style="--i: 2;"><a href="#home" class="active">Home</a></li>
         <li style="--i: 3;"><a href="#about">About</a></li>
         <li style="--i: 4;"><a href="#tech-stack">Tech Stack</a></li>
-        <li style="--i: 5;"><a href="#services">Services</a></li>
-        <li style="--i: 6;"><a href="#portfolio">Portfolio</a></li>
-        <li style="--i: 7;"><a href="#contact">Contact</a></li>
+        <li style="--i: 5;"><a href="#workflow">Workflow</a></li>
+        <li style="--i: 6;"><a href="#services">Services</a></li>
+        <li style="--i: 7;"><a href="#portfolio">Portfolio</a></li>
+        <li style="--i: 8;"><a href="#contact">Contact</a></li>
     </ul>
 
     <a href="assets/Ochuba Victor CV.pdf" class="cvbtn" style="--i: 8;" download>Download CV</a>
@@ -126,16 +127,34 @@ Right now, I’m expanding further into containerization, infrastructure as code
   <div class="stack-grid">
     <div class="stack-card">Azure</div>
     <div class="stack-card">Linux</div>
-    <div class="stack-card">Git & GitHub</div>
-    <div class="stack-card">GitHub Actions</div>
     <div class="stack-card">Docker</div>
+    <div class="stack-card">Kubernetes</div>
+    <div class="stack-card">Terraform</div>
+    <div class="stack-card">GitHub Actions</div>
     <div class="stack-card">Nginx</div>
-    <div class="stack-card">Monitoring</div>
+    <div class="stack-card">Monitoring & Alerting</div>
+    <div class="stack-card">Git</div>
     <div class="stack-card">Networking</div>
   </div>
 </section>
+<section id="workflow" class="container py-5">
+  <h2 class="text-center mb-5" style="color: #fff; font-size: 2.5rem;">
+    Deployment <span style="color: #00D1FF;">Workflow</span>
+  </h2>
 
-    
+  <div class="workflow-grid">
+    <div class="workflow-step">GitHub</div>
+    <div class="workflow-arrow">→</div>
+    <div class="workflow-step">CI/CD / Docker</div>
+    <div class="workflow-arrow">→</div>
+    <div class="workflow-step">Azure VM</div>
+    <div class="workflow-arrow">→</div>
+    <div class="workflow-step">Nginx</div>
+    <div class="workflow-arrow">→</div>
+    <div class="workflow-step">Live App</div>
+  </div>
+</section>
+
   <!-- My Services Section -->
 <section id="services" class="my-services py-5">
     <div class="container">
@@ -199,6 +218,7 @@ I deploy and configure cloud environments on Azure, including Linux virtual mach
             <div class="card-body text-center">
                 <h5 class="card-title">Containerized App Deployment with Docker Compose</h5>
                 <small class="project-stack">Docker • Docker Compose • Nginx • Linux • Azure VM</small>
+                <small class="repo-badge"><span class="repo-dot"></span> Code Available</small>
                 <small class="project-hint">View Repository</small>
             </div>
         </div>
@@ -211,6 +231,7 @@ I deploy and configure cloud environments on Azure, including Linux virtual mach
                     <div class="card-body text-center">
                         <h5 class="card-title">Automated Delivery to Azure VM</h5>
                         <small class="project-stack">GitHub Actions • Azure VM • Linux • Nginx • CI/CD</small>
+                        <small class="repo-badge"><span class="repo-dot"></span> Code Available</small>
                         <small class="project-hint">View Repository</small>
                     </div>
                 </div>
