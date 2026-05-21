@@ -696,7 +696,7 @@ section {
 .site-footer {
   background: #0b1120;
   padding: 2rem 1.5rem;
-  margin-top: 4rem;
+  margin-top: 0rem;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
