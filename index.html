@@ -297,19 +297,33 @@ I deploy and configure cloud environments on Azure, including Linux virtual mach
     Contact <span style="color: #00D1FF;">Me!</span>
   </h2>
 
-  <div class="contact-info text-center text-white mb-4">
-    <p>Open to cloud, DevOps, and infrastructure opportunities. Whether it’s a role, collaboration, or project discussion, feel free to reach out.</p>
-    <p><strong>Email:</strong> ochubachineacherem@gmail.com</p>
-    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ochuba-victor-chinaecherem-a76aa430b/" target="_blank" style="color: #00D1FF;">Ochuba Victor</a></p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/ochubavictor" target="_blank" style="color: #00D1FF;">ochubavictor</a></p>
+ <div class="contact-info text-center text-white mb-4">
+  <p>Open to cloud, DevOps, and infrastructure opportunities. Whether it's a role, collaboration, or project discussion, feel free to reach out.</p>
+  
+  <div class="contact-form mt-4" style="max-width: 500px; margin: 0 auto;">
+    <input type="text" id="contact-name" placeholder="Your Name" required
+      style="width: 100%; padding: 10px; margin-bottom: 12px; border-radius: 6px; border: none; background: rgba(255,255,255,0.1); color: white;">
+    
+    <input type="email" id="contact-email" placeholder="Your Email" required
+      style="width: 100%; padding: 10px; margin-bottom: 12px; border-radius: 6px; border: none; background: rgba(255,255,255,0.1); color: white;">
+    
+    <textarea id="contact-message" placeholder="Your Message" rows="4" required
+      style="width: 100%; padding: 10px; margin-bottom: 12px; border-radius: 6px; border: none; background: rgba(255,255,255,0.1); color: white; resize: vertical;"></textarea>
+    
+    <button id="contact-submit"
+      style="width: 100%; padding: 12px; background: #00D1FF; color: #0a0a1a; font-weight: bold; border: none; border-radius: 6px; cursor: pointer;">
+      SEND MESSAGE
+    </button>
+    
+    <p id="contact-status" style="margin-top: 12px; font-size: 14px;"></p>
   </div>
-</section>
-    
-    
 
+</div>
+</section>
 
 </body>
 
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script src="script.js"></script>
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
@@ -351,4 +365,7 @@ I deploy and configure cloud environments on Azure, including Linux virtual mach
     <small>© 2026 Ochuba Victor. All rights reserved.</small>
   </div>
 </footer>
+</footer>
+</html>
+
 </html>
