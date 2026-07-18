@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ochuba Victor Chinaecherem — CV</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #000;
+    background: #fff;
+    padding: 40px 50px;
+    max-width: 850px;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+  .name { font-size: 22px; font-weight: bold; }
+  .job-title { font-size: 13px; color: #333; margin-top: 2px; }
+  .contact { font-size: 12px; color: #333; margin-top: 6px; }
+  .contact a { color: #1a6fc4; text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+  .divider { border: none; border-top: 1.5px solid #000; margin: 14px 0 10px; }
+  .section-title {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px;
+    margin-bottom: 8px;
+    margin-top: 16px;
+  }
+  .summary { font-size: 12.5px; line-height: 1.6; color: #111; }
+  .skills-block { margin-bottom: 4px; font-size: 12.5px; }
+  .skills-block strong { color: #000; }
+  .project { margin-bottom: 14px; }
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .project-title { font-weight: bold; font-size: 13px; }
+  .project-link { font-size: 11px; flex-shrink: 0; }
+  .project-link a { color: #1a6fc4; text-decoration: none; }
+  .project-link a:hover { text-decoration: underline; }
+  .project-stack { font-size: 11.5px; color: #666; margin-top: 3px; font-style: italic; }
+  ul { padding-left: 18px; margin-top: 6px; }
+  ul li { font-size: 12.5px; margin-bottom: 2px; }
+  .edu-row { display: flex; justify-content: space-between; font-size: 12.5px; flex-wrap: wrap; gap: 4px; }
+  .edu-title { font-weight: bold; }
+  .edu-sub { font-size: 12px; color: #333; margin-top: 1px; }
+  @media (max-width: 600px) {
+    body { padding: 24px 20px; }
+    .project-header { flex-direction: column; gap: 4px; }
+  }
+  @media print {
+    body { padding: 20px 30px; }
+    .contact a { color: #000; }
+    .project-link a { color: #000; }
+  }
+</style>
+</head>
+<body>
+
+<div class="name">Ochuba Victor Chinaecherem</div>
+<div class="job-title">Cloud / DevOps Engineer</div>
+<div class="contact">
+  +234 906 971 5793 &nbsp;|&nbsp;
+  <a href="mailto:ochubachineacherem@gmail.com">ochubachineacherem@gmail.com</a> &nbsp;|&nbsp;
+  <a href="https://ochubavictor.com" target="_blank">ochubavictor.com</a> &nbsp;|&nbsp;
+  <a href="https://github.com/ochubavictor" target="_blank">github.com/ochubavictor</a> &nbsp;|&nbsp;
+  <a href="https://linkedin.com/in/ochuba-victor-chinaecherem-a76aa430b" target="_blank">LinkedIn</a>
+</div>
+
+<hr class="divider">
+
+<div class="section-title">Professional Summary</div>
+<p class="summary">
+  Cloud/DevOps Engineer with hands-on experience deploying and managing infrastructure on Microsoft Azure. Skilled in Linux server administration, CI/CD pipeline automation using GitHub Actions and Azure DevOps, containerisation with Docker and Kubernetes, and Infrastructure as Code with Terraform. Proven ability to deliver secure, production-ready cloud environments through end-to-end project ownership.
+</p>
+
+<div class="section-title">Technical Skills</div>
+<div class="skills-block"><strong>Cloud Platforms:</strong> Microsoft Azure (AKS, ACR, VM, Networking, Cost Management, Monitor)</div>
+<div class="skills-block"><strong>Infrastructure as Code:</strong> Terraform · Bash Scripting</div>
+<div class="skills-block"><strong>CI/CD Pipelines:</strong> GitHub Actions · Azure DevOps Pipelines</div>
+<div class="skills-block"><strong>Containers & Orchestration:</strong> Docker · Docker Compose · Kubernetes (AKS)</div>
+<div class="skills-block"><strong>Monitoring & Alerting:</strong> Azure Monitor · Telegram-based alerting · Prometheus</div>
+<div class="skills-block"><strong>Web Servers & Networking:</strong> Nginx · DNS · SSL/TLS · Load Balancing · TCP/IP</div>
+<div class="skills-block"><strong>Operating Systems:</strong> Linux (Ubuntu) · macOS</div>
+<div class="skills-block"><strong>Version Control:</strong> Git · GitHub</div>
+
+<div class="section-title">Projects</div>
+
+<div class="project">
+  <div class="project-header">
+    <div class="project-title">Kubernetes Infrastructure Provisioning with Terraform</div>
+    <div class="project-link"><a href="https://github.com/ochubavictor/terraform-aks-azure" target="_blank">github.com/ochubavictor/terraform-aks-azure</a></div>
+  </div>
+  <div class="project-stack">Terraform · Azure AKS · Azure ACR · kubectl · Azure CLI</div>
+  <ul>
+    <li>Provisioned Azure Resource Group, Container Registry, and AKS cluster entirely using Terraform IaC — no manual portal interaction.</li>
+    <li>Deployed a containerised Nginx application on Kubernetes exposed via a public LoadBalancer service.</li>
+    <li>Managed full infrastructure lifecycle — provision, deploy, and destroy — from a single version-controlled codebase.</li>
+    <li>Outcome: Production-grade IaC setup demonstrating repeatable, automated cloud infrastructure delivery.</li>
+  </ul>
+</div>
+
+<div class="project">
+  <div class="project-header">
+    <div class="project-title">Azure DevOps CI/CD Pipeline — Docker to AKS</div>
+    <div class="project-link"><a href="https://github.com/ochubavictor/terraform-aks-azure" target="_blank">github.com/ochubavictor/terraform-aks-azure</a></div>
+  </div>
+  <div class="project-stack">Azure DevOps Pipelines · Docker · Azure ACR · Azure AKS · YAML</div>
+  <ul>
+    <li>Built a multi-stage Azure DevOps pipeline to build a Docker image, push to Azure Container Registry, and deploy to AKS.</li>
+    <li>Configured Service Connections for secure integration between Azure DevOps, ACR, and AKS.</li>
+    <li>Outcome: Fully automated application delivery pipeline from code push to live Kubernetes deployment.</li>
+  </ul>
+</div>
+
+<div class="project">
+  <div class="project-header">
+    <div class="project-title">Full Stack Deployment — Docker, HTTPS & CI/CD</div>
+    <div class="project-link"><a href="https://github.com/ochubavictor/azure-cicd-website" target="_blank">github.com/ochubavictor/azure-cicd-website</a></div>
+  </div>
+  <div class="project-stack">Docker · Nginx · GitHub Actions · Let's Encrypt · Certbot · Azure VM</div>
+  <ul>
+    <li>Deployed a containerised full-stack application on Azure VM with Nginx as a reverse proxy.</li>
+    <li>Secured the application with HTTPS using Let's Encrypt SSL certificates via Certbot.</li>
+    <li>Automated deployment pipeline using GitHub Actions — push to main triggers zero-intervention deploy.</li>
+    <li>Outcome: Production-ready, HTTPS-secured application with fully automated CI/CD delivery.</li>
+  </ul>
+</div>
+
+<div class="project">
+  <div class="project-header">
+    <div class="project-title">Real-Time CPU Monitoring & Telegram Alerting System</div>
+    <div class="project-link"><a href="https://github.com/ochubavictor" target="_blank">github.com/ochubavictor</a></div>
+  </div>
+  <div class="project-stack">Azure Monitor · Bash · Cron · Telegram Bot API · Linux</div>
+  <ul>
+    <li>Built a real-time infrastructure monitoring system that tracks CPU usage on a Linux server.</li>
+    <li>Wrote a Bash script to poll CPU metrics and trigger instant Telegram notifications when thresholds are exceeded.</li>
+    <li>Scheduled automated monitoring using cron jobs for continuous, zero-intervention oversight.</li>
+    <li>Outcome: Lightweight, production-style alerting system with real-time server health visibility.</li>
+  </ul>
+</div>
+
+<div class="project">
+  <div class="project-header">
+    <div class="project-title">Azure Cloud Cost Optimization Audit</div>
+    <div class="project-link"><a href="https://github.com/ochubavictor/azure-cost-optimization" target="_blank">github.com/ochubavictor/azure-cost-optimization</a></div>
+  </div>
+  <div class="project-stack">Azure Cost Management · Azure Advisor · Azure Monitor</div>
+  <ul>
+    <li>Audited Azure infrastructure to identify underutilised and zombie resources incurring unnecessary costs.</li>
+    <li>Identified potential 60–80% cost reduction through VM right-sizing and removal of orphaned resources.</li>
+    <li>Outcome: Structured cost reduction recommendations using Azure Cost Management and Azure Advisor.</li>
+  </ul>
+</div>
+
+<div class="project">
+  <div class="project-header">
+    <div class="project-title">Containerised Web Application Deployment with Docker Compose</div>
+    <div class="project-link"><a href="https://github.com/ochubavictor/docker-compose-nginx-deployment" target="_blank">github.com/ochubavictor/docker-compose-nginx-deployment</a></div>
+  </div>
+  <div class="project-stack">Docker · Docker Compose · Nginx · Azure VM · Ubuntu Linux</div>
+  <ul>
+    <li>Deployed a containerised web application on Azure VM using Docker Compose to orchestrate app and Nginx containers.</li>
+    <li>Configured Nginx as a reverse proxy to handle routing and serve the application over the internet.</li>
+    <li>Outcome: Fully containerised, internet-accessible web application running on cloud infrastructure.</li>
+  </ul>
+</div>
+
+<div class="section-title">Education</div>
+<div class="edu-row">
+  <div>
+    <div class="edu-title">Bachelor of Science — Computer Science</div>
+    <div class="edu-sub">Enugu State University of Science and Technology (ESUT), Nigeria</div>
+  </div>
+  <div>Graduated 2023</div>
+</div>
+
+</body>
+</html>
